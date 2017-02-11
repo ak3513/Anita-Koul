@@ -1,0 +1,20 @@
+setwd("C:/Users/sa014361/Desktop/R")
+
+>myTable = read.csv("C:/Users/sa014361/Desktop/R/Workbook-Example-Bivariate dataset.csv")
+>myTable
+
+>names(myTable)
+
+>x>-c(1:52)
+
+>plot('x','y')
+
+>plot(myTable$Profit, myTable$Number.of.Defective.Items, xlab = "Profit in Thousands", ylab = "Number of Defective Items")
+
+>x <- seq(20,100,20)
+x
+
+>plot(myTable$Profit, myTable$Number.of.Defective.Items, main = "Scatterplot", xlab = "Profit in Thousands", ylab = "Number of Defective Items",frame.plot = TRUE,col = "green")
+
+>plot(myTable$Profit, myTable$Number.of.Defective.Items, main = "Scatterplot", pch = 20, cex = 1.9, col = "red", xlab = "Profit in Thousands", ylab = "Number of
+Defective Items", frame.plot = TRUE)
